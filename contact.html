@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — MRA Trading Company</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <span class="name">MRA Trading Co.</span>
+      <span class="tag">FOOD &amp; CONSUMER GOODS</span>
+    </a>
+    <button class="navToggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    <div class="navlinks" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" style="padding-bottom:24px;">
+  <div class="wrap">
+    <p class="eyebrow">Get In Touch</p>
+    <h1 class="display" style="font-size:44px;">Request a Quote</h1>
+    <p class="lead">Tell us what you need and how much — we'll follow up with pricing and availability.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="contact-grid">
+    <div>
+      <div class="info-block">
+        <div class="lbl">Office</div>
+        <div class="val">Add your street address, city, state / country</div>
+      </div>
+      <div class="info-block">
+        <div class="lbl">Phone</div>
+        <div class="val">+1 (000) 000-0000</div>
+      </div>
+      <div class="info-block">
+        <div class="lbl">Email</div>
+        <div class="val">orders@mratrading.example</div>
+      </div>
+      <div class="info-block">
+        <div class="lbl">Hours</div>
+        <div class="val">Monday – Saturday, 9:00 AM – 6:00 PM</div>
+      </div>
+    </div>
+
+    <form action="mailto:orders@mratrading.example" method="post" enctype="text/plain">
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" placeholder="Your name" required>
+
+      <label for="company">Company</label>
+      <input id="company" name="company" type="text" placeholder="Business / retailer name">
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" placeholder="you@company.com" required>
+
+      <label for="message">Order details</label>
+      <textarea id="message" name="message" rows="5" placeholder="Products, quantities, and delivery location" required></textarea>
+
+      <button type="submit" class="btn" style="margin-top:8px;border:none;cursor:pointer;">Send Inquiry →</button>
+    </form>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <div class="name display">MRA Trading Co.</div>
+      <div class="meta">Food &amp; Consumer Goods Distribution</div>
+    </div>
+    <div class="meta">© 2026 MRA Trading Company. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

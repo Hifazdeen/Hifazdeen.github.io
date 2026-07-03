@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catalog — MRA Trading Company</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <span class="name">MRA Trading Co.</span>
+      <span class="tag">FOOD &amp; CONSUMER GOODS</span>
+    </a>
+    <button class="navToggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    <div class="navlinks" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="products.html" class="active">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" style="padding-bottom:24px;">
+  <div class="wrap">
+    <p class="eyebrow">Full Catalog</p>
+    <h1 class="display" style="font-size:44px;">Products</h1>
+    <p class="lead">Every line we carry, organized by division. Pricing is quoted per order volume — reach out for a quote sheet.</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="filters" id="filters">
+    <button class="active" data-filter="all">All Products</button>
+    <button data-filter="food">Mainline Food</button>
+    <button data-filter="consumer">Consumer Grade</button>
+  </div>
+
+  <div class="grid" id="productGrid">
+
+    <div class="card" data-cat="food">
+      <div class="art food"><span class="tag">Food</span><span class="stamp">R</span><span class="code">SKU FD-0112</span></div>
+      <div class="body"><h4>Premium Basmati Rice</h4><p class="sub">Long-grain, aged — 5kg &amp; 25kg bulk bags</p><span class="cta">Inquire for pricing →</span></div>
+    </div>
+
+    <div class="card" data-cat="food">
+      <div class="art food"><span class="tag">Food</span><span class="stamp">O</span><span class="code">SKU FD-0198</span></div>
+      <div class="body"><h4>Refined Sunflower Oil</h4><p class="sub">1L, 5L &amp; 15L jerry cans</p><span class="cta">Inquire for pricing →</span></div>
+    </div>
+
+    <div class="card" data-cat="food">
+      <div class="art food"><span class="tag">Food</span><span class="stamp">M</span><span class="code">SKU FD-0233</span></div>
+      <div class="body"><h4>Whole Spice Masala Blend</h4><p class="sub">200g pouches, cartons of 48</p><span class="cta">Inquire for pricing →</span></div>
+    </div>
+
+    <div class="card" data-cat="food">
+      <div class="art food"><span class="tag">Food</span><span class="stamp">T</span><span class="code">SKU FD-0287</span></div>
+      <div class="body"><h4>Ceylon Black Tea</h4><p class="sub">Loose leaf, 250g &amp; 1kg packs</p><span class="cta">Inquire for pricing →</span></div>
+    </div>
+
+    <div class="card" data-cat="food">
+      <div class="art food"><span class="tag">Food</span><span class="stamp">C</span><span class="code">SKU FD-0301</span></div>
+      <div class="body"><h4>Roasted Coffee Beans</h4><p class="sub">Whole bean, 500g &amp; 1kg</p><span class="cta">Inquire for pricing →</span></div>
+    </div>
+
+    <div class="card" data-cat="food">
+      <div class="art food"><span class="tag">Food</span><span class="stamp">W</span><span class="code">SKU FD-0355</span></div>
+      <div class="body"><h4>Assorted Wheat Crackers</h4><p class="sub">Family packs, cartons of 24</p><span class="cta">Inquire for pricing →</span></div>
+    </div>
+
+    <div class="card" data-cat="consumer">
+      <div class="art consumer"><span class="tag">Consumer</span><span class="stamp">D</span><span class="code">SKU CN-0119</span></div>
+      <div class="body"><h4>Concentrated Laundry Detergent</h4><p class="sub">1kg &amp; 5kg pouches</p><span class="cta">Inquire for pricing →</span></div>
+    </div>
+
+    <div class="card" data-cat="consumer">
+      <div class="art consumer"><span class="tag">Consumer</span><span class="stamp">T</span><span class="code">SKU CN-0164</span></div>
+      <div class="body"><h4>Soft-Ply Tissue Paper</h4><p class="sub">2-ply, packs of 10 &amp; 30</p><span class="cta">Inquire for pricing →</span></div>
+    </div>
+
+    <div class="card" data-cat="consumer">
+      <div class="art consumer"><span class="tag">Consumer</span><span class="stamp">S</span><span class="code">SKU CN-0210</span></div>
+      <div class="body"><h4>Moisturizing Bath Soap</h4><p class="sub">125g bars, cartons of 72</p><span class="cta">Inquire for pricing →</span></div>
+    </div>
+
+    <div class="card" data-cat="consumer">
+      <div class="art consumer"><span class="tag">Consumer</span><span class="stamp">L</span><span class="code">SKU CN-0248</span></div>
+      <div class="body"><h4>Lemon Dishwashing Liquid</h4><p class="sub">500ml &amp; 1L bottles</p><span class="cta">Inquire for pricing →</span></div>
+    </div>
+
+    <div class="card" data-cat="consumer">
+      <div class="art consumer"><span class="tag">Consumer</span><span class="stamp">W</span><span class="code">SKU CN-0276</span></div>
+      <div class="body"><h4>Whitening Toothpaste</h4><p class="sub">100ml tubes, cartons of 96</p><span class="cta">Inquire for pricing →</span></div>
+    </div>
+
+    <div class="card" data-cat="consumer">
+      <div class="art consumer"><span class="tag">Consumer</span><span class="stamp">M</span><span class="code">SKU CN-0299</span></div>
+      <div class="body"><h4>Multi-Surface Cleaner</h4><p class="sub">750ml spray bottles</p><span class="cta">Inquire for pricing →</span></div>
+    </div>
+
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <div class="name display">MRA Trading Co.</div>
+      <div class="meta">Food &amp; Consumer Goods Distribution</div>
+    </div>
+    <div class="meta">© 2026 MRA Trading Company. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
